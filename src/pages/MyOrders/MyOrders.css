@@ -43,6 +43,17 @@
     color: tomato;
 }
 
+.order-feedback{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.order-feedback span{
+    color: #CCC;
+    cursor: pointer;
+}
+
 @media screen and (max-width:900px) {
     .my-orders-order{
         grid-template-columns: 1fr 2fr 1fr;
