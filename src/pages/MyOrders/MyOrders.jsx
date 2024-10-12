@@ -60,7 +60,7 @@ const MyOrders = () => {
                 <p>₹{order.amount}.00</p>
                 <p>Total Items: {order.items.length}</p>
                 <p><span style={{ color: order.status === "Out for Delivery" ? "tomato" : order.status === "Delivered" ? "#00b45b" : "orange" }}>&#x25cf;</span> <b>{order.status}</b></p>
-                {order.status !== "Delivered" && <button onClick={fetchOrders}>Track Order</button>}
+                {order.status !== "Delivered" && order.status !== "Cancelled" && <button onClick={fetchOrders}>Track Order</button>}
             </div>
         ));
     };
