@@ -4,7 +4,7 @@
 
 FoodEase is a food delivery app that provides a seamless experience for browsing and ordering food from a cloud kitchen.
 
-[Live Demo](https://foodease.vercel.app)
+Click here for [Live Demo](https://foodease.vercel.app)
 
 ## Features
 - **Explore items:** View available dishes with descriptions and prices.
